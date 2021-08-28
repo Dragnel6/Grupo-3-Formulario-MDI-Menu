@@ -38,10 +38,7 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedores f = new Proveedores(); 
-            f.MdiParent = this;
-            f.Text = "Proveedores - " + this.MdiChildren.Length.ToString();
-            f.Show();
+
         }
 
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,5 +49,22 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
 
         }
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda f = new Ayuda();
+            f.MdiParent = this;
+            f.Text = "Ayuda";
+            f.Show();
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 f = new AboutBox1();
+            f.MdiParent = this;
+            f.Text = "acerca de..."; 
+            f.Show();
+        }
+
+
     }
 }

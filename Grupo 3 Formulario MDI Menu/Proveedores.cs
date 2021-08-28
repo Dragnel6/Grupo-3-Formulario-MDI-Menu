@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Grupo_3_Formulario_MDI_Menu
 {
-    public partial class Proveedores : Form
+    public partial class proveedores : Form
     {
-        public Proveedores()
+        public proveedores()
         {
             InitializeComponent();
         }
