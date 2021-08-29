@@ -1,7 +1,7 @@
 ﻿
 namespace Grupo_3_Formulario_MDI_Menu
 {
-    partial class proveedores
+    partial class Proveedores
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,18 @@ namespace Grupo_3_Formulario_MDI_Menu
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Proveedores
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "proveedores";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(375, 369);
+            this.Name = "Proveedores";
+            this.Text = "Proveedores";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

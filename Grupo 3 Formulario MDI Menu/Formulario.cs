@@ -38,6 +38,10 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Proveedores f = new Proveedores();
+            f.MdiParent = this;
+            f.Text = "Proveedores - " + this.MdiChildren.Length.ToString();
+            f.Show();
 
         }
 

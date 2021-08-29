@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Grupo_3_Formulario_MDI_Menu
 {
-    public partial class proveedores : Form
+    public partial class Proveedores : Form
     {
-        public proveedores()
+        public Proveedores()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
