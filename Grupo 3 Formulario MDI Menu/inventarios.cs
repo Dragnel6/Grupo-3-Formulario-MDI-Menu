@@ -14,7 +14,7 @@ namespace Grupo_3_Formulario_MDI_Menu
     {
         public inventarios()
         {
-            inventarios f = new Ventas();
+            inventarios f = new inventarios();
             f.MdiParent = this;
             f.Text = "inventarios - " + this.MdiChildren.Length.ToString();
             f.Show();
@@ -27,4 +27,3 @@ namespace Grupo_3_Formulario_MDI_Menu
         }
     }
 }
-1
