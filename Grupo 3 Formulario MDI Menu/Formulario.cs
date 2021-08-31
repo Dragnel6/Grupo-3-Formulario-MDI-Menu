@@ -53,6 +53,15 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
 
         }
+
+        private void inventariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            inventarios f = new inventarios();
+            f.MdiParent = this;
+            f.Text = "inventarios";
+            f.Show();
+
+        }
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ayuda f = new Ayuda();
@@ -69,6 +78,6 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
         }
 
-
+        
     }
 }

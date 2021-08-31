@@ -33,9 +33,11 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             // inventarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.DarkGreen;
+            this.ClientSize = new System.Drawing.Size(862, 460);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "inventarios";
             this.Text = "inventarios";
             this.Load += new System.EventHandler(this.inventarios_Load);

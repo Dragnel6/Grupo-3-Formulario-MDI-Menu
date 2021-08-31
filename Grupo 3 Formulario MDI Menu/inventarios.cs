@@ -12,13 +12,15 @@ namespace Grupo_3_Formulario_MDI_Menu
 {
     public partial class inventarios : Form
     {
-        public inventarios()
-        {
-            inventarios f = new inventarios();
-            f.MdiParent = this;
-            f.Text = "inventarios - " + this.MdiChildren.Length.ToString();
-            f.Show();
+       public inventarios()
+       {
             InitializeComponent();
+
+            /* inventarios f = new inventarios();
+             f.MdiParent = this;
+             f.Text = "inventarios - " + this.MdiChildren.Length.ToString();
+             f.Show();
+             InitializeComponent();*/
         }
 
         private void inventarios_Load(object sender, EventArgs e)
@@ -27,4 +29,4 @@ namespace Grupo_3_Formulario_MDI_Menu
         }
     }
 }
-1
+

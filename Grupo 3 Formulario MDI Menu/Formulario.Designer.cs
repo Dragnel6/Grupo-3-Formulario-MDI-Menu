@@ -90,6 +90,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.inventariosToolStripMenuItem.Name = "inventariosToolStripMenuItem";
             this.inventariosToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
             this.inventariosToolStripMenuItem.Text = "Inventarios";
+            this.inventariosToolStripMenuItem.Click += new System.EventHandler(this.inventariosToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -113,7 +114,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Formulario";
             this.Text = "Formulario";
             this.menuStrip1.ResumeLayout(false);
