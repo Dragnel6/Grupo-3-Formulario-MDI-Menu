@@ -106,5 +106,10 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             this.Close();
         }
+
+        private void tableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

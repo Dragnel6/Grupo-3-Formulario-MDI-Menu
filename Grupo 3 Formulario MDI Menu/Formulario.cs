@@ -19,47 +19,47 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void formulariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Ventas f = new Ventas();
+           /* Ventas f = new Ventas();
             f.MdiParent = this;
             f.Text = "Ventas - " + this.MdiChildren.Length.ToString();
-            f.Show();
+            f.Show();*/
 
 
         }
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             Clientes f = new Clientes();
+            /* Clientes f = new Clientes();
             f.MdiParent = this;
             f.Text = "Clientes - " + this.MdiChildren.Length.ToString();
-            f.Show();
+            f.Show();*/
 
         }
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedores f = new Proveedores();
+          /*  Proveedores f = new Proveedores();
             f.MdiParent = this;
             f.Text = "Proveedores - " + this.MdiChildren.Length.ToString();
-            f.Show();
+            f.Show();*/
 
         }
 
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             Compras f = new Compras();
+           /*  Compras f = new Compras();
             f.MdiParent = this;
             f.Text = "compras - " + this.MdiChildren.Length.ToString();
-            f.Show();
+            f.Show();*/
 
         }
 
         private void inventariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            inventarios f = new inventarios();
+            /*inventarios f = new inventarios();
             f.MdiParent = this;
             f.Text = "inventarios";
-            f.Show();
+            f.Show();*/
 
         }
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -78,6 +78,12 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
         }
 
-        
+        private void pizzaConVerdurasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pizza_verdura f = new pizza_verdura();
+            f.MdiParent = this;
+            f.Show();
+
+        }
     }
 }

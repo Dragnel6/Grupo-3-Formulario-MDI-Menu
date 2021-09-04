@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;
-
+using System.IO;
+using System.Collections;
 
 namespace Grupo_3_Formulario_MDI_Menu
 {
@@ -18,33 +18,48 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             InitializeComponent();
         }
-
         private void btn_cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void Ayuda_Load(object sender, EventArgs e)
         {
-            Process.Start("https://docs.microsoft.com/es-es/visualstudio/ide/create-csharp-winform-visual-studio?toc=%2Fvisualstudio%2Fget-started%2Fcsharp%2Ftoc.json&bc=%2Fvisualstudio%2Fget-started%2Fcsharp%2Fbreadcrumb%2Ftoc.json&view=vs-2019");
+            //Para abrir un archivo para lectura, crear una nueva instancia de un objeto "Archivo" 
+            //y pasamos la ruta en el constructor de la manera siguiente:
+            StreamReader Archivo = new StreamReader("C:\\Users\\wmedr\\Downloads\\Grupo-3-Formulario-MDI-Menu\\ayuda.txt");
+
+            //Debe tener una variable de cadena en la que se va a almacenar cada línea del archivo 
+            //a medida que procesa. 
+            string Linea = "";
+
+            //Creamos el objeto "Contenido" para la clase ArrayList, esto almacena el contenido del
+            //Archivo de texto en un arreglo llamado --Contenido--.
+            ArrayList Contenido = new ArrayList();
+
+            //Existen varios métodos para leer el archivo, incluido el método ReadToEnd que 
+            //lee todo el archivo a la vez. Sin embargo, en este ejemplo, puede utilizar el 
+            //método ReadLine para poner en la línea de un archivo a la vez. 
+            while (Linea != null)
+            {
+                Linea = Archivo.ReadLine();
+                if (Linea != null)
+                    Contenido.Add(Linea);
+                ayu.Text = Linea;
+            }
+            Archivo.Close();
+
+            //Debemos inicializar el contenido del control "texto" de modo que esté vacío
+            //asignandole doble comilla
+            ayu.Text = "";
+
+            //Utilice un bucle For Each para escribir el contenido de su lista de matrices
+            foreach (string Linea_mostrar in Contenido)
+            {
+                //Usamos Strings.Chr(13) para salto de linea, de modo que agrega una luego la otra...;
+                ayu.Text = ayu.Text + Linea_mostrar + "\r\n";
+            }
         }
 
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-           
-            Process.Start("https://docs.microsoft.com/es-es/dotnet/desktop/winforms/controls/windows-forms-controls-by-function?view=netframeworkdesktop-4.8");
-        }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-            Process.Start("https://docs.microsoft.com/es-es/visualstudio/ide/?view=vs-2019");
-        }
-
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://social.msdn.microsoft.com/Forums/es-ES/home?forum=vsgenerales");
-        }
-
-        
     }
 }

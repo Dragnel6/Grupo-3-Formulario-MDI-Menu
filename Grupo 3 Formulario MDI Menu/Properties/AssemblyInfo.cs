@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("Grupo 3 Formulario MDI Menu")]
-[assembly: AssemblyDescription("Formulario MDI, grupo 3, semana 5")]
+[assembly: AssemblyDescription("Formulario MDI, grupo 3, semana 6")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Centro regional de usulutan")]
 [assembly: AssemblyProduct("Grupo 3 Formulario MDI Menu")]
