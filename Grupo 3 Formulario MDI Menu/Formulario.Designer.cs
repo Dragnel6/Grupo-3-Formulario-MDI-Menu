@@ -68,8 +68,8 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.acercaDeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 30);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,51 +83,51 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.pizzaDeJamonToolStripMenuItem,
             this.pizzaConVerdurasToolStripMenuItem});
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
-            this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
-            this.formulariosToolStripMenuItem.Text = "Menu";
+            this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.formulariosToolStripMenuItem.Text = "Men";
             this.formulariosToolStripMenuItem.Click += new System.EventHandler(this.formulariosToolStripMenuItem_Click);
             // 
             // pizzaConOrillaDeQuesoToolStripMenuItem
             // 
             this.pizzaConOrillaDeQuesoToolStripMenuItem.Name = "pizzaConOrillaDeQuesoToolStripMenuItem";
-            this.pizzaConOrillaDeQuesoToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaConOrillaDeQuesoToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaConOrillaDeQuesoToolStripMenuItem.Text = "Pizza con orilla de queso";
             // 
             // pizzaHawuainaToolStripMenuItem
             // 
             this.pizzaHawuainaToolStripMenuItem.Name = "pizzaHawuainaToolStripMenuItem";
-            this.pizzaHawuainaToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaHawuainaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaHawuainaToolStripMenuItem.Text = "Pizza hawuaina";
             // 
             // pizzaDePeperoniToolStripMenuItem
             // 
             this.pizzaDePeperoniToolStripMenuItem.Name = "pizzaDePeperoniToolStripMenuItem";
-            this.pizzaDePeperoniToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaDePeperoniToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDePeperoniToolStripMenuItem.Text = "Pizza de peperoni";
             // 
             // pizzaDeSalamiToolStripMenuItem
             // 
             this.pizzaDeSalamiToolStripMenuItem.Name = "pizzaDeSalamiToolStripMenuItem";
-            this.pizzaDeSalamiToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaDeSalamiToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDeSalamiToolStripMenuItem.Text = "Pizza de salami ";
             // 
             // pizzaDeJamonToolStripMenuItem
             // 
             this.pizzaDeJamonToolStripMenuItem.Name = "pizzaDeJamonToolStripMenuItem";
-            this.pizzaDeJamonToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaDeJamonToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDeJamonToolStripMenuItem.Text = "Pizza de Jamon ";
             // 
             // pizzaConVerdurasToolStripMenuItem
             // 
             this.pizzaConVerdurasToolStripMenuItem.Name = "pizzaConVerdurasToolStripMenuItem";
-            this.pizzaConVerdurasToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.pizzaConVerdurasToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaConVerdurasToolStripMenuItem.Text = "Pizza con verduras";
             this.pizzaConVerdurasToolStripMenuItem.Click += new System.EventHandler(this.pizzaConVerdurasToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.clientesToolStripMenuItem.Text = "Cliente";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
@@ -141,44 +141,44 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.cocaCeroToolStripMenuItem,
             this.jugoDeNaranjaToolStripMenuItem});
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.proveedoresToolStripMenuItem.Text = "Bebidas";
             this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // cocaColaToolStripMenuItem
             // 
             this.cocaColaToolStripMenuItem.Name = "cocaColaToolStripMenuItem";
-            this.cocaColaToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.cocaColaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cocaColaToolStripMenuItem.Text = "Coca Cola";
             // 
             // pepsiColaToolStripMenuItem
             // 
             this.pepsiColaToolStripMenuItem.Name = "pepsiColaToolStripMenuItem";
-            this.pepsiColaToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.pepsiColaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.pepsiColaToolStripMenuItem.Text = "Pepsi Cola";
             // 
             // upToolStripMenuItem
             // 
             this.upToolStripMenuItem.Name = "upToolStripMenuItem";
-            this.upToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.upToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.upToolStripMenuItem.Text = "7up";
             // 
             // mirindaToolStripMenuItem
             // 
             this.mirindaToolStripMenuItem.Name = "mirindaToolStripMenuItem";
-            this.mirindaToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.mirindaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.mirindaToolStripMenuItem.Text = "Mirinda";
             // 
             // cocaCeroToolStripMenuItem
             // 
             this.cocaCeroToolStripMenuItem.Name = "cocaCeroToolStripMenuItem";
-            this.cocaCeroToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.cocaCeroToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cocaCeroToolStripMenuItem.Text = "Coca Cero";
             // 
             // jugoDeNaranjaToolStripMenuItem
             // 
             this.jugoDeNaranjaToolStripMenuItem.Name = "jugoDeNaranjaToolStripMenuItem";
-            this.jugoDeNaranjaToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.jugoDeNaranjaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.jugoDeNaranjaToolStripMenuItem.Text = "Jugo de Naranja";
             // 
             // comprasToolStripMenuItem
@@ -187,20 +187,20 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.panConAjoToolStripMenuItem,
             this.nuditosDeAjoToolStripMenuItem});
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.comprasToolStripMenuItem.Text = "Complementos";
             this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
             // 
             // panConAjoToolStripMenuItem
             // 
             this.panConAjoToolStripMenuItem.Name = "panConAjoToolStripMenuItem";
-            this.panConAjoToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
+            this.panConAjoToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.panConAjoToolStripMenuItem.Text = "Pan con Ajo";
             // 
             // nuditosDeAjoToolStripMenuItem
             // 
             this.nuditosDeAjoToolStripMenuItem.Name = "nuditosDeAjoToolStripMenuItem";
-            this.nuditosDeAjoToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
+            this.nuditosDeAjoToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.nuditosDeAjoToolStripMenuItem.Text = "Nuditos De Ajo";
             // 
             // inventariosToolStripMenuItem
@@ -208,39 +208,38 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.inventariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.agregregarOrdenToolStripMenuItem});
             this.inventariosToolStripMenuItem.Name = "inventariosToolStripMenuItem";
-            this.inventariosToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
+            this.inventariosToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
             this.inventariosToolStripMenuItem.Text = "Servicio a domicilio";
             this.inventariosToolStripMenuItem.Click += new System.EventHandler(this.inventariosToolStripMenuItem_Click);
             // 
             // agregregarOrdenToolStripMenuItem
             // 
             this.agregregarOrdenToolStripMenuItem.Name = "agregregarOrdenToolStripMenuItem";
-            this.agregregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.agregregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.agregregarOrdenToolStripMenuItem.Text = "Agregregar orden ";
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda ";
             this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // Formulario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Formulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizzeria";
