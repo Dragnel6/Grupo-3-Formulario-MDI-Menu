@@ -103,6 +103,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pizza_e_vino {
+            get {
+                object obj = ResourceManager.GetObject("pizza-e-vino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pizza_hawaiana_1_1200_amp {
             get {
                 object obj = ResourceManager.GetObject("pizza-hawaiana-1-1200-amp", resourceCulture);

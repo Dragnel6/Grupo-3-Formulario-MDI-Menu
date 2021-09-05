@@ -118,22 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pizza-vegetales-prin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza-vegetales-prin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pizza-hawaiana-1-1200-amp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza-hawaiana-1-1200-amp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Pepperoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pepperoni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizza-con-salami-655x368" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza-con-salami-655x368.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orilla de quesoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orilla de quesoc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jamon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orilla de quesoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\orilla de quesoc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pizza-hawaiana-1-1200-amp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-hawaiana-1-1200-amp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-vegetales-prin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-vegetales-prin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-con-salami-655x368" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-con-salami-655x368.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-e-vino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-e-vino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

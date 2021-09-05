@@ -220,5 +220,8 @@
   <ItemGroup>
     <None Include="Resources\orilla de quesoc.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-e-vino.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
