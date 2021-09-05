@@ -87,6 +87,36 @@
     <Compile Include="inventarios.Designer.cs">
       <DependentUpon>inventarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pizza con orilla de queso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza con orilla de queso.Designer.cs">
+      <DependentUpon>Pizza con orilla de queso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza de jamon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza de jamon.Designer.cs">
+      <DependentUpon>Pizza de jamon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza de peperoni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza de peperoni.Designer.cs">
+      <DependentUpon>Pizza de peperoni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza de salami.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza de salami.Designer.cs">
+      <DependentUpon>Pizza de salami.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza Hawaiana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pizza Hawaiana.Designer.cs">
+      <DependentUpon>Pizza Hawaiana.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pizza_verdura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +155,21 @@
     <EmbeddedResource Include="inventarios.resx">
       <DependentUpon>inventarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pizza con orilla de queso.resx">
+      <DependentUpon>Pizza con orilla de queso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza de jamon.resx">
+      <DependentUpon>Pizza de jamon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza de peperoni.resx">
+      <DependentUpon>Pizza de peperoni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza de salami.resx">
+      <DependentUpon>Pizza de salami.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza Hawaiana.resx">
+      <DependentUpon>Pizza Hawaiana.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pizza_verdura.resx">
       <DependentUpon>Pizza_verdura.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +204,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pizza-vegetales-prin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-con-salami-655x368.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pepperoni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-hawaiana-1-1200-amp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orilla de quesoc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

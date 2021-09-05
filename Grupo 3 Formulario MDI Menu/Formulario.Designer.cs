@@ -92,30 +92,35 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.pizzaConOrillaDeQuesoToolStripMenuItem.Name = "pizzaConOrillaDeQuesoToolStripMenuItem";
             this.pizzaConOrillaDeQuesoToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaConOrillaDeQuesoToolStripMenuItem.Text = "Pizza con orilla de queso";
+            this.pizzaConOrillaDeQuesoToolStripMenuItem.Click += new System.EventHandler(this.pizzaConOrillaDeQuesoToolStripMenuItem_Click);
             // 
             // pizzaHawuainaToolStripMenuItem
             // 
             this.pizzaHawuainaToolStripMenuItem.Name = "pizzaHawuainaToolStripMenuItem";
             this.pizzaHawuainaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.pizzaHawuainaToolStripMenuItem.Text = "Pizza hawuaina";
+            this.pizzaHawuainaToolStripMenuItem.Text = "Pizza hawaiana";
+            this.pizzaHawuainaToolStripMenuItem.Click += new System.EventHandler(this.pizzaHawuainaToolStripMenuItem_Click);
             // 
             // pizzaDePeperoniToolStripMenuItem
             // 
             this.pizzaDePeperoniToolStripMenuItem.Name = "pizzaDePeperoniToolStripMenuItem";
             this.pizzaDePeperoniToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDePeperoniToolStripMenuItem.Text = "Pizza de peperoni";
+            this.pizzaDePeperoniToolStripMenuItem.Click += new System.EventHandler(this.pizzaDePeperoniToolStripMenuItem_Click);
             // 
             // pizzaDeSalamiToolStripMenuItem
             // 
             this.pizzaDeSalamiToolStripMenuItem.Name = "pizzaDeSalamiToolStripMenuItem";
             this.pizzaDeSalamiToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDeSalamiToolStripMenuItem.Text = "Pizza de salami ";
+            this.pizzaDeSalamiToolStripMenuItem.Click += new System.EventHandler(this.pizzaDeSalamiToolStripMenuItem_Click);
             // 
             // pizzaDeJamonToolStripMenuItem
             // 
             this.pizzaDeJamonToolStripMenuItem.Name = "pizzaDeJamonToolStripMenuItem";
             this.pizzaDeJamonToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pizzaDeJamonToolStripMenuItem.Text = "Pizza de Jamon ";
+            this.pizzaDeJamonToolStripMenuItem.Click += new System.EventHandler(this.pizzaDeJamonToolStripMenuItem_Click);
             // 
             // pizzaConVerdurasToolStripMenuItem
             // 

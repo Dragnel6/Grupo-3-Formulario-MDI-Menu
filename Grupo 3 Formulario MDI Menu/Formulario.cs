@@ -85,5 +85,41 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
 
         }
+
+        private void pizzaDeJamonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pizza_de_jamon f = new Pizza_de_jamon();
+            f.MdiParent = this;
+            f.Show();
+
+        }
+
+        private void pizzaDeSalamiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pizza_de_salami f = new Pizza_de_salami();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void pizzaDePeperoniToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pizza_de_peperoni f = new Pizza_de_peperoni();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void pizzaHawuainaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pizza_Hawaiana f = new Pizza_Hawaiana();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void pizzaConOrillaDeQuesoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pizza_con_orilla_de_queso f = new Pizza_con_orilla_de_queso();
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }
