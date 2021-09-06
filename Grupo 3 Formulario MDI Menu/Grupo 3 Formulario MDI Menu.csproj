@@ -63,11 +63,23 @@
     <Compile Include="Ayuda.Designer.cs">
       <DependentUpon>Ayuda.cs</DependentUpon>
     </Compile>
+    <Compile Include="bebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bebidas.Designer.cs">
+      <DependentUpon>bebidas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complementos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complementos.Designer.cs">
+      <DependentUpon>Complementos.cs</DependentUpon>
     </Compile>
     <Compile Include="Compras.cs">
       <SubType>Form</SubType>
@@ -143,8 +155,14 @@
     <EmbeddedResource Include="Ayuda.resx">
       <DependentUpon>Ayuda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="bebidas.resx">
+      <DependentUpon>bebidas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complementos.resx">
+      <DependentUpon>Complementos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
@@ -222,6 +240,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pizza-e-vino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-various-no-2-coca-cola-soda-bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_222439992-stock-photo-cold-can-of-pepsi-drink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web_fotoreceta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nudosdeajo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

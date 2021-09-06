@@ -63,9 +63,49 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bebida_de_fanta_en_una_poder_aislada_en_el_fondo_blanco_64328655 {
+            get {
+                object obj = ResourceManager.GetObject("bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_222439992_stock_photo_cold_can_of_pepsi_drink {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_222439992-stock-photo-cold-can-of-pepsi-drink", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jamon {
             get {
                 object obj = ResourceManager.GetObject("jamon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Las_latas_de_Coca_Cola_seran_blancas_para_ayudar_a_proteger_a_los_osos_polares {
+            get {
+                object obj = ResourceManager.GetObject("Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nudosdeajo {
+            get {
+                object obj = ResourceManager.GetObject("nudosdeajo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +166,26 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         internal static System.Drawing.Bitmap pizza_vegetales_prin {
             get {
                 object obj = ResourceManager.GetObject("pizza-vegetales-prin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_various_no_2_coca_cola_soda_bottle {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-various-no-2-coca-cola-soda-bottle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Web_fotoreceta {
+            get {
+                object obj = ResourceManager.GetObject("Web_fotoreceta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

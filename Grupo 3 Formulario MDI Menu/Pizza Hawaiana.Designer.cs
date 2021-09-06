@@ -47,19 +47,19 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(158, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(211, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 30);
+            this.label1.Size = new System.Drawing.Size(257, 37);
             this.label1.TabIndex = 2;
             this.label1.Text = "Pizza hawaiana";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.pizza_hawaiana_1_1200_amp;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 53);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(309, 271);
+            this.pictureBox1.Size = new System.Drawing.Size(412, 334);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -69,10 +69,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(336, 43);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(448, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 21);
+            this.label4.Size = new System.Drawing.Size(218, 26);
             this.label4.TabIndex = 5;
             this.label4.Text = "Esta orden incluye:";
             // 
@@ -81,10 +80,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(334, 83);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(445, 102);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(162, 21);
+            this.label5.Size = new System.Drawing.Size(194, 26);
             this.label5.TabIndex = 6;
             this.label5.Text = "1 pizza hawaiana";
             // 
@@ -93,10 +91,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(326, 122);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(435, 150);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(234, 21);
+            this.label6.Size = new System.Drawing.Size(283, 26);
             this.label6.TabIndex = 7;
             this.label6.Text = "1 orden de nuditos de ajo";
             // 
@@ -105,10 +102,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(334, 163);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(445, 201);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(196, 21);
+            this.label7.Size = new System.Drawing.Size(236, 26);
             this.label7.TabIndex = 8;
             this.label7.Text = "1 Pepsi Cola de 1.5 L";
             // 
@@ -117,10 +113,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(333, 199);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(444, 245);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 30);
+            this.label2.Size = new System.Drawing.Size(132, 38);
             this.label2.TabIndex = 9;
             this.label2.Text = "Precio:";
             // 
@@ -129,10 +124,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(434, 200);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(579, 246);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 30);
+            this.label3.Size = new System.Drawing.Size(122, 37);
             this.label3.TabIndex = 10;
             this.label3.Text = "$13.99";
             // 
@@ -144,13 +138,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.b_si_no.FlatAppearance.BorderSize = 2;
             this.b_si_no.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_si_no.Font = new System.Drawing.Font("Baskerville Old Face", 17F);
-            this.b_si_no.Location = new System.Drawing.Point(330, 252);
-            this.b_si_no.Margin = new System.Windows.Forms.Padding(2);
+            this.b_si_no.Location = new System.Drawing.Point(440, 310);
+            this.b_si_no.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.b_si_no.Name = "b_si_no";
-            this.b_si_no.Size = new System.Drawing.Size(117, 62);
+            this.b_si_no.Size = new System.Drawing.Size(156, 76);
             this.b_si_no.TabIndex = 11;
             this.b_si_no.Text = "Comprar";
             this.b_si_no.UseVisualStyleBackColor = false;
+            this.b_si_no.Click += new System.EventHandler(this.b_si_no_Click_1);
             // 
             // btn_atras
             // 
@@ -161,20 +156,21 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btn_atras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_atras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11F);
             this.btn_atras.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_atras.Location = new System.Drawing.Point(476, 286);
-            this.btn_atras.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_atras.Location = new System.Drawing.Point(635, 352);
+            this.btn_atras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_atras.Name = "btn_atras";
-            this.btn_atras.Size = new System.Drawing.Size(70, 28);
+            this.btn_atras.Size = new System.Drawing.Size(93, 34);
             this.btn_atras.TabIndex = 12;
             this.btn_atras.Text = "Atras";
             this.btn_atras.UseVisualStyleBackColor = false;
+            this.btn_atras.Click += new System.EventHandler(this.btn_atras_Click_1);
             // 
             // Pizza_Hawaiana
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(557, 326);
+            this.ClientSize = new System.Drawing.Size(743, 401);
             this.Controls.Add(this.btn_atras);
             this.Controls.Add(this.b_si_no);
             this.Controls.Add(this.label3);
@@ -185,6 +181,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Pizza_Hawaiana";
             this.Text = "Pizza_Hawaiana";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

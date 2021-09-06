@@ -10,46 +10,19 @@ using System.Windows.Forms;
 
 namespace Grupo_3_Formulario_MDI_Menu
 {
-    public partial class Pizza_Hawaiana : Form
+    public partial class Complementos : Form
     {
-        public Pizza_Hawaiana()
+        public Complementos()
         {
             InitializeComponent();
         }
 
-        private void btn_atras_Click(object sender, EventArgs e)
+        private void b_agregar_Click(object sender, EventArgs e)
         {
-            this.Hide();
-        }
-
-        private void b_si_no_Click(object sender, EventArgs e)
-        {
-            DialogResult m = MessageBox.Show("¿Estas seguro de esta compra?", "¿Confirmar compra?", MessageBoxButtons.YesNoCancel);
+            DialogResult m = MessageBox.Show("¿Estas seguro de agregar esto?", "¿Confirmar compra?", MessageBoxButtons.YesNoCancel);
             if (m == DialogResult.Yes)
             {
-                MessageBox.Show("Su compra se ha ordenado con exito!", "Compra realizada", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-
-            if (m == DialogResult.No)
-            {
-                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            }
-            if (m == DialogResult.Cancel)
-            {
-                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            }
-        }
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void b_si_no_Click_1(object sender, EventArgs e)
-        {
-            DialogResult m = MessageBox.Show("¿Estas seguro de esta compra?", "¿Confirmar compra?", MessageBoxButtons.YesNoCancel);
-            if (m == DialogResult.Yes)
-            {
-                MessageBox.Show("Su compra se ha ordenado con exito!", "Compra realizada", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Compra realizada!", "Pan con ajo, ordenado!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
             if (m == DialogResult.No)
@@ -62,9 +35,22 @@ namespace Grupo_3_Formulario_MDI_Menu
             }
         }
 
-        private void btn_atras_Click_1(object sender, EventArgs e)
+        private void b_agregar2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            DialogResult m = MessageBox.Show("¿Estas seguro de agregar esto?", "¿Confirmar compra?", MessageBoxButtons.YesNoCancel);
+            if (m == DialogResult.Yes)
+            {
+                MessageBox.Show("Compra realizada!", "Nuditos de ajo, ordenada!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+            if (m == DialogResult.No)
+            {
+                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+            if (m == DialogResult.Cancel)
+            {
+                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
         }
     }
 }

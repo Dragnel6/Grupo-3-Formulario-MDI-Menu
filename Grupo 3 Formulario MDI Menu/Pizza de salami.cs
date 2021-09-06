@@ -16,5 +16,28 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             InitializeComponent();
         }
+
+        private void b_si_no_Click(object sender, EventArgs e)
+        {
+            DialogResult m = MessageBox.Show("¿Estas seguro de esta compra?", "¿Confirmar compra?", MessageBoxButtons.YesNoCancel);
+            if (m == DialogResult.Yes)
+            {
+                MessageBox.Show("Su compra se ha ordenado con exito!", "Compra realizada", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+            if (m == DialogResult.No)
+            {
+                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+            if (m == DialogResult.Cancel)
+            {
+                MessageBox.Show("Haz cancelado tu compra!", "Compra cancelada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+        }
+
+        private void btn_atras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

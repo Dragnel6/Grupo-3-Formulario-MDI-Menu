@@ -38,7 +38,11 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          /*  Proveedores f = new Proveedores();
+            bebidas f = new bebidas();
+            f.MdiParent = this;
+            f.Show();
+
+            /*  Proveedores f = new Proveedores();
             f.MdiParent = this;
             f.Text = "Proveedores - " + this.MdiChildren.Length.ToString();
             f.Show();*/
@@ -47,7 +51,11 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           /*  Compras f = new Compras();
+            Complementos f = new Complementos();
+            f.MdiParent = this;
+            f.Show();
+
+            /*  Compras f = new Compras();
             f.MdiParent = this;
             f.Text = "compras - " + this.MdiChildren.Length.ToString();
             f.Show();*/
@@ -121,5 +129,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.MdiParent = this;
             f.Show();
         }
+
+      /*  private void panConAjoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }*/
     }
 }
