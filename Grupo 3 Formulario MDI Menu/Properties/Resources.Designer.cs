@@ -63,9 +63,29 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3986693_architecture_building_culture_pizza_pizzeria_restorant_icon_112267 {
+            get {
+                object obj = ResourceManager.GetObject("3986693-architecture-building-culture-pizza-pizzeria-restorant-icon_112267", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bebida_de_fanta_en_una_poder_aislada_en_el_fondo_blanco_64328655 {
             get {
                 object obj = ResourceManager.GetObject("bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_96690 {
+            get {
+                object obj = ResourceManager.GetObject("delete_96690", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +203,29 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap security_protection_protect_key_password_login_108554 {
+            get {
+                object obj = ResourceManager.GetObject("security-protection-protect-key-password-login_108554", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Web_fotoreceta {
             get {
                 object obj = ResourceManager.GetObject("Web_fotoreceta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap window_minimize_icon_181229 {
+            get {
+                object obj = ResourceManager.GetObject("window_minimize_icon_181229", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

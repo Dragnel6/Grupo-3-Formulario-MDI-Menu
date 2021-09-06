@@ -130,9 +130,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
         }
 
-      /*  private void panConAjoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
-        }*/
+        }
+
+        /*  private void panConAjoToolStripMenuItem_Click(object sender, EventArgs e)
+          {
+
+          }*/
     }
 }

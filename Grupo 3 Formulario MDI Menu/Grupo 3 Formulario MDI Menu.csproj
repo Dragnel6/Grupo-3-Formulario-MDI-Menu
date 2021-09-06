@@ -93,11 +93,23 @@
     <Compile Include="Formulario.Designer.cs">
       <DependentUpon>Formulario.cs</DependentUpon>
     </Compile>
+    <Compile Include="imagen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imagen.Designer.cs">
+      <DependentUpon>imagen.cs</DependentUpon>
+    </Compile>
     <Compile Include="inventarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inventarios.Designer.cs">
       <DependentUpon>inventarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Pizza con orilla de queso.cs">
       <SubType>Form</SubType>
@@ -170,8 +182,14 @@
     <EmbeddedResource Include="Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="imagen.resx">
+      <DependentUpon>imagen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inventarios.resx">
       <DependentUpon>inventarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pizza con orilla de queso.resx">
       <DependentUpon>Pizza con orilla de queso.cs</DependentUpon>
@@ -258,6 +276,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\nudosdeajo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3986693-architecture-building-culture-pizza-pizzeria-restorant-icon_112267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security-protection-protect-key-password-login_108554.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_96690.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_minimize_icon_181229.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
