@@ -38,7 +38,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.b_si_no = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_atras
@@ -51,7 +53,7 @@
             this.btn_atras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11F);
             this.btn_atras.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_atras.Location = new System.Drawing.Point(492, 306);
-            this.btn_atras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_atras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_atras.Name = "btn_atras";
             this.btn_atras.Size = new System.Drawing.Size(70, 28);
             this.btn_atras.TabIndex = 0;
@@ -153,7 +155,7 @@
             this.b_si_no.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_si_no.Font = new System.Drawing.Font("Baskerville Old Face", 17F);
             this.b_si_no.Location = new System.Drawing.Point(337, 272);
-            this.b_si_no.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b_si_no.Margin = new System.Windows.Forms.Padding(2);
             this.b_si_no.Name = "b_si_no";
             this.b_si_no.Size = new System.Drawing.Size(117, 62);
             this.b_si_no.TabIndex = 9;
@@ -172,6 +174,16 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.pizza_e_vino;
+            this.pictureBox2.Location = new System.Drawing.Point(9, 7);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(553, 327);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
             // pizza_verdura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,11 +201,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_atras);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "pizza_verdura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "pizza_verdura";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,5 +225,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button b_si_no;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

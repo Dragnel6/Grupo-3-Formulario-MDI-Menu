@@ -213,6 +213,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thumb2_water_bubbles_texture_4k_underwater_bubbles_water_backgrounds {
+            get {
+                object obj = ResourceManager.GetObject("thumb2-water-bubbles-texture-4k-underwater-bubbles-water-backgrounds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Web_fotoreceta {
             get {
                 object obj = ResourceManager.GetObject("Web_fotoreceta", resourceCulture);

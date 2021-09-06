@@ -127,6 +127,12 @@
   <data name="3986693-architecture-building-culture-pizza-pizzeria-restorant-icon_112267" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3986693-architecture-building-culture-pizza-pizzeria-restorant-icon_112267.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jamon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window_minimize_icon_181229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window_minimize_icon_181229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nudosdeajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nudosdeajo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,14 +157,11 @@
   <data name="security-protection-protect-key-password-login_108554" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\security-protection-protect-key-password-login_108554.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="png-clipart-various-no-2-coca-cola-soda-bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-clipart-various-no-2-coca-cola-soda-bottle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jamon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Las-latas-de-Coca-Cola-seran-blancas-para-ayudar-a-proteger-a-los-osos-polares.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Web_fotoreceta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Web_fotoreceta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +169,7 @@
   <data name="delete_96690" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_96690.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="window_minimize_icon_181229" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window_minimize_icon_181229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thumb2-water-bubbles-texture-4k-underwater-bubbles-water-backgrounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb2-water-bubbles-texture-4k-underwater-bubbles-water-backgrounds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

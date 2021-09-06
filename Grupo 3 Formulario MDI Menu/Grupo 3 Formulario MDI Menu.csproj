@@ -289,5 +289,8 @@
   <ItemGroup>
     <None Include="Resources\window_minimize_icon_181229.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb2-water-bubbles-texture-4k-underwater-bubbles-water-backgrounds.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
