@@ -223,6 +223,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_icon_vector {
+            get {
+                object obj = ResourceManager.GetObject("user-icon-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Web_fotoreceta {
             get {
                 object obj = ResourceManager.GetObject("Web_fotoreceta", resourceCulture);

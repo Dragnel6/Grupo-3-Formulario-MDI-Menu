@@ -29,110 +29,117 @@ namespace Grupo_3_Formulario_MDI_Menu
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_trabajadores));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.b_ingresar = new System.Windows.Forms.Button();
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.txtcontra = new System.Windows.Forms.TextBox();
+            this.usuario = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.usuario)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(583, 42);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(185, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 31);
+            this.label1.Size = new System.Drawing.Size(293, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIAR SESION ";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(173, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(289, 46);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Solicitar Acceso";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(612, 123);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 38);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(612, 187);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(194, 38);
-            this.textBox2.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(489, 136);
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(71, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
+            this.label2.Size = new System.Drawing.Size(125, 40);
             this.label2.TabIndex = 4;
             this.label2.Text = "Usuario";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(467, 200);
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(19, 191);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 25);
+            this.label3.Size = new System.Drawing.Size(177, 40);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             // 
-            // button2
+            // b_ingresar
             // 
-            this.button2.Location = new System.Drawing.Point(641, 262);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 41);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Ingresar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.b_ingresar.BackColor = System.Drawing.Color.AliceBlue;
+            this.b_ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_ingresar.FlatAppearance.BorderColor = System.Drawing.Color.LightSteelBlue;
+            this.b_ingresar.FlatAppearance.BorderSize = 3;
+            this.b_ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_ingresar.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.b_ingresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.b_ingresar.Location = new System.Drawing.Point(211, 241);
+            this.b_ingresar.Name = "b_ingresar";
+            this.b_ingresar.Size = new System.Drawing.Size(169, 54);
+            this.b_ingresar.TabIndex = 6;
+            this.b_ingresar.Text = "Ingresar";
+            this.b_ingresar.UseVisualStyleBackColor = false;
+            this.b_ingresar.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pictureBox1
+            // txtusuario
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(905, 71);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.txtusuario.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtusuario.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtusuario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtusuario.Location = new System.Drawing.Point(192, 120);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(215, 30);
+            this.txtusuario.TabIndex = 8;
+            // 
+            // txtcontra
+            // 
+            this.txtcontra.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtcontra.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtcontra.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcontra.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtcontra.Location = new System.Drawing.Point(192, 194);
+            this.txtcontra.Name = "txtcontra";
+            this.txtcontra.Size = new System.Drawing.Size(215, 30);
+            this.txtcontra.TabIndex = 9;
+            // 
+            // usuario
+            // 
+            this.usuario.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.user_icon_vector;
+            this.usuario.Location = new System.Drawing.Point(432, 96);
+            this.usuario.Name = "usuario";
+            this.usuario.Size = new System.Drawing.Size(206, 178);
+            this.usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.usuario.TabIndex = 10;
+            this.usuario.TabStop = false;
             // 
             // login_trabajadores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
+            this.BackColor = System.Drawing.Color.LightSlateGray;
+            this.ClientSize = new System.Drawing.Size(675, 335);
+            this.Controls.Add(this.usuario);
+            this.Controls.Add(this.txtcontra);
+            this.Controls.Add(this.txtusuario);
+            this.Controls.Add(this.b_ingresar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "login_trabajadores";
-            this.Text = "Pizzeria ";
+            this.Text = "login_empleados";
             this.Load += new System.EventHandler(this.login_trabajadores_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,12 +148,11 @@ namespace Grupo_3_Formulario_MDI_Menu
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button b_ingresar;
+        private System.Windows.Forms.TextBox txtusuario;
+        private System.Windows.Forms.TextBox txtcontra;
+        private System.Windows.Forms.PictureBox usuario;
     }
 }

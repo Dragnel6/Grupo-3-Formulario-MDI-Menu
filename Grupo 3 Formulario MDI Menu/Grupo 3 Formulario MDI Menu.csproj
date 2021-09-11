@@ -57,6 +57,12 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Autorizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autorizado.Designer.cs">
+      <DependentUpon>Autorizado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ayuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autorizado.resx">
+      <DependentUpon>Autorizado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ayuda.resx">
       <DependentUpon>Ayuda.cs</DependentUpon>
@@ -300,6 +309,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\thumb2-water-bubbles-texture-4k-underwater-bubbles-water-backgrounds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon-vector.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

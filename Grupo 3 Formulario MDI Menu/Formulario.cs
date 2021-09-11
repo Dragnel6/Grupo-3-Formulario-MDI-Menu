@@ -137,7 +137,9 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void personalAToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            login_trabajadores a = new login_trabajadores();
+            a.MdiParent = this;
+            a.Show();
         }
 
         
