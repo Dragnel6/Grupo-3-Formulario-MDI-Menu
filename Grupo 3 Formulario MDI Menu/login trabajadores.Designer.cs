@@ -32,7 +32,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.b_ingresar = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.txtcontra = new System.Windows.Forms.TextBox();
             this.usuario = new System.Windows.Forms.PictureBox();
@@ -46,7 +46,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label1.Location = new System.Drawing.Point(185, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 39);
+            this.label1.Size = new System.Drawing.Size(233, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIAR SESION ";
             // 
@@ -57,7 +57,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(71, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 40);
+            this.label2.Size = new System.Drawing.Size(102, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Usuario";
             // 
@@ -68,26 +68,26 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(19, 191);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 40);
+            this.label3.Size = new System.Drawing.Size(145, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             // 
-            // b_ingresar
+            // btnLogin
             // 
-            this.b_ingresar.BackColor = System.Drawing.Color.AliceBlue;
-            this.b_ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.b_ingresar.FlatAppearance.BorderColor = System.Drawing.Color.LightSteelBlue;
-            this.b_ingresar.FlatAppearance.BorderSize = 3;
-            this.b_ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_ingresar.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
-            this.b_ingresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.b_ingresar.Location = new System.Drawing.Point(211, 241);
-            this.b_ingresar.Name = "b_ingresar";
-            this.b_ingresar.Size = new System.Drawing.Size(169, 54);
-            this.b_ingresar.TabIndex = 6;
-            this.b_ingresar.Text = "Ingresar";
-            this.b_ingresar.UseVisualStyleBackColor = false;
-            this.b_ingresar.Click += new System.EventHandler(this.button2_Click);
+            this.btnLogin.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.LightSteelBlue;
+            this.btnLogin.FlatAppearance.BorderSize = 3;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnLogin.Location = new System.Drawing.Point(211, 241);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(169, 54);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.Text = "Ingresar";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtusuario
             // 
@@ -97,7 +97,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtusuario.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtusuario.Location = new System.Drawing.Point(192, 120);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(215, 30);
+            this.txtusuario.Size = new System.Drawing.Size(215, 24);
             this.txtusuario.TabIndex = 8;
             // 
             // txtcontra
@@ -108,7 +108,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtcontra.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtcontra.Location = new System.Drawing.Point(192, 194);
             this.txtcontra.Name = "txtcontra";
-            this.txtcontra.Size = new System.Drawing.Size(215, 30);
+            this.txtcontra.Size = new System.Drawing.Size(215, 24);
             this.txtcontra.TabIndex = 9;
             // 
             // usuario
@@ -123,14 +123,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             // login_trabajadores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(675, 335);
             this.Controls.Add(this.usuario);
             this.Controls.Add(this.txtcontra);
             this.Controls.Add(this.txtusuario);
-            this.Controls.Add(this.b_ingresar);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -150,7 +150,7 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button b_ingresar;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.TextBox txtcontra;
         private System.Windows.Forms.PictureBox usuario;
