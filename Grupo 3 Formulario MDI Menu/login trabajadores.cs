@@ -17,66 +17,44 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             InitializeComponent();
         }
-       
-        SqlConnection connection = new SqlConnection("server=DESKTOP-1V6O9PB ; database= sistema ; INTEGRATED SECURITY = true");
-        //private object txtcontraseña;
 
         private void login_trabajadores_Load(object sender, EventArgs e)
         {
             
         }
 
+        SqlConnection conect = new SqlConnection("server = LAPTOP-JCD60568; database = Login; Integrated Security = true");
 
         private void button2_Click(object sender, EventArgs e)
         {
-            connection.Open();
-            SqlCommand comando = new SqlCommand("SELECT USUARIO, CONTRASEÑA FROM PERSONA WHERE USUARIO = @vuusuario and Contraseña = @vcontraseña", connection);
-          
-            SqlParameter sqlParameter1 = comando.Parameters.AddWithValue("@vusuario", txtusuario.Text);
-            SqlParameter sqlParameter = sqlParameter1;
-            comando.Parameters.AddWithValue("@contraseña", txtcontra.Text);
 
-
-              SqlDataReader lector = comando.ExecuteReader();
-
-            if (lector.Read())
+            try
             {
-                connection.Close();
-                Autorizado a = new Autorizado();
-                a.Show();
+                conect.Open();
+                SqlCommand com = new SqlCommand("select Usuario, Contrasena from Empleado where Usuario = @user AND Contrasena = @pass", conect);
+                com.Parameters.AddWithValue("@user", txtusuario.Text);
+                com.Parameters.AddWithValue("@pass", txtcontra.Text);
+
+                SqlDataReader lec = com.ExecuteReader();
+
+                if (lec.Read())
+                {
+                    conect.Close();
+                    Autorizado emple = new Autorizado();
+                    emple.Show();
+                    this.Hide();
+                }
+
             }
-
-
-            //evaluando que clave y usuario sean correctos
-           /* if (txtusuario.Text == "empleado")
-                    {
-                        if (txtcontra.Text == "98765")
-                        {
-                            Autorizado a = new Autorizado();
-                            a.Show();
-                            this.Hide();
-                        }
-                        else
-                        {
-                    DialogResult b = MessageBox.Show("contraseña incorrecta","", MessageBoxButtons.OK, MessageBoxIcon.Exclamation) ;
-                        }
-
-                    }
-                    else
-                    {
-                        MessageBox.Show("Usuario incorrecto", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    }*/
-                
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
+            catch 
+            {
+                conect.Close();
+                MessageBox.Show("Usuario o Contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 
     }
+
 }
+

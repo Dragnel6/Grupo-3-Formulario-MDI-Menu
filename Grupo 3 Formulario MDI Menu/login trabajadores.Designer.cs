@@ -55,7 +55,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(71, 117);
+            this.label2.Location = new System.Drawing.Point(71, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 40);
             this.label2.TabIndex = 4;
@@ -66,7 +66,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(19, 191);
+            this.label3.Location = new System.Drawing.Point(19, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 40);
             this.label3.TabIndex = 5;
@@ -81,9 +81,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLogin.Location = new System.Drawing.Point(211, 241);
+            this.btnLogin.Location = new System.Drawing.Point(225, 218);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(169, 54);
+            this.btnLogin.Size = new System.Drawing.Size(169, 59);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Ingresar";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -95,7 +95,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtusuario.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusuario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtusuario.Location = new System.Drawing.Point(192, 120);
+            this.txtusuario.Location = new System.Drawing.Point(192, 97);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(215, 30);
             this.txtusuario.TabIndex = 8;
@@ -106,7 +106,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtcontra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcontra.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcontra.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtcontra.Location = new System.Drawing.Point(192, 194);
+            this.txtcontra.Location = new System.Drawing.Point(192, 171);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
             this.txtcontra.Size = new System.Drawing.Size(215, 30);
@@ -115,9 +115,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             // usuario
             // 
             this.usuario.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.user_icon_vector;
-            this.usuario.Location = new System.Drawing.Point(432, 96);
+            this.usuario.Location = new System.Drawing.Point(423, 88);
             this.usuario.Name = "usuario";
-            this.usuario.Size = new System.Drawing.Size(206, 178);
+            this.usuario.Size = new System.Drawing.Size(145, 120);
             this.usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.usuario.TabIndex = 10;
             this.usuario.TabStop = false;
@@ -127,7 +127,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(675, 335);
+            this.ClientSize = new System.Drawing.Size(618, 289);
             this.Controls.Add(this.usuario);
             this.Controls.Add(this.txtcontra);
             this.Controls.Add(this.txtusuario);

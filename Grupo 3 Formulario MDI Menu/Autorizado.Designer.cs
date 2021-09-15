@@ -82,6 +82,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_cerrar);
             this.Name = "Autorizado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autorizado";
             this.Load += new System.EventHandler(this.Autorizado_Load);
             this.ResumeLayout(false);

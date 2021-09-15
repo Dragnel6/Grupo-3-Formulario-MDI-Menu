@@ -23,7 +23,7 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             //Para abrir un archivo para lectura, crear una nueva instancia de un objeto "Archivo" 
             //y pasamos la ruta en el constructor de la manera siguiente:
-            StreamReader Archivo = new StreamReader("C:\\Users\\wmedr\\source\\repos\\Grupo-3-Formulario-MDI-Menu\\ingredientes.txt");
+            StreamReader Archivo = new StreamReader("C:\\Users\\wmedr\\source\\repos\\Grupo-3-Formulario-MDI-Menu-12\\ingredientes.txt");
 
             //Debe tener una variable de cadena en la que se va a almacenar cada línea del archivo 
             //a medida que procesa. 
