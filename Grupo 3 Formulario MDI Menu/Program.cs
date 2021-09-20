@@ -16,7 +16,7 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+            Application.Run(new loginaccess());
         }
     }
 }
