@@ -23,15 +23,15 @@ namespace Grupo_3_Formulario_MDI_Menu
             
         }
 
-        SqlConnection conect = new SqlConnection("server = LAPTOP-JCD60568; database = Login; Integrated Security = true");
+        SqlConnection conexion = new SqlConnection("server = LAPTOP-JCD60568; database = Login; Integrated Security = true");
 
         private void button2_Click(object sender, EventArgs e)
         {
 
             try
             {
-                conect.Open();
-                SqlCommand com = new SqlCommand("select Usuario, Contrasena from Empleado where Usuario = @user AND Contrasena = @pass", conect);
+                conexion.Open();
+                SqlCommand com = new SqlCommand("select Usuario, Contrasena from Empleado where Usuario = @user AND Contrasena = @pass", conexion);
                 com.Parameters.AddWithValue("@user", txtusuario.Text);
                 com.Parameters.AddWithValue("@pass", txtcontra.Text);
 
@@ -39,7 +39,7 @@ namespace Grupo_3_Formulario_MDI_Menu
 
                 if (lec.Read())
                 {
-                    conect.Close();
+                    conexion.Close();
                     Autorizado emple = new Autorizado();
                     emple.Show();
                     this.Hide();
@@ -48,12 +48,16 @@ namespace Grupo_3_Formulario_MDI_Menu
             }
             catch 
             {
-                conect.Close();
+                conexion.Close();
                 MessageBox.Show("Usuario o Contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

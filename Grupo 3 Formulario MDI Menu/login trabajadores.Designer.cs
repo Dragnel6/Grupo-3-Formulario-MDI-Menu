@@ -49,7 +49,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label1.Location = new System.Drawing.Point(185, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 31);
+            this.label1.Size = new System.Drawing.Size(293, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIAR SESION ";
             // 
@@ -61,7 +61,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(71, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 32);
+            this.label2.Size = new System.Drawing.Size(125, 40);
             this.label2.TabIndex = 4;
             this.label2.Text = "Usuario";
             // 
@@ -73,7 +73,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(19, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 32);
+            this.label3.Size = new System.Drawing.Size(177, 40);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             // 
@@ -102,7 +102,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtusuario.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtusuario.Location = new System.Drawing.Point(192, 97);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(215, 24);
+            this.txtusuario.Size = new System.Drawing.Size(215, 30);
             this.txtusuario.TabIndex = 8;
             // 
             // txtcontra
@@ -114,7 +114,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtcontra.Location = new System.Drawing.Point(192, 171);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
-            this.txtcontra.Size = new System.Drawing.Size(215, 24);
+            this.txtcontra.Size = new System.Drawing.Size(215, 30);
             this.txtcontra.TabIndex = 9;
             // 
             // pictureBox1
@@ -125,6 +125,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.pictureBox1.Size = new System.Drawing.Size(616, 288);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // usuario
             // 
@@ -138,7 +139,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             // login_trabajadores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(618, 289);
