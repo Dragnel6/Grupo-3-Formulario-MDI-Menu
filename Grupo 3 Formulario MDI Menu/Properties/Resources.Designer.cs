@@ -73,6 +73,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abstract_tech_background_vector {
+            get {
+                object obj = ResourceManager.GetObject("abstract-tech-background-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bebida_de_fanta_en_una_poder_aislada_en_el_fondo_blanco_64328655 {
             get {
                 object obj = ResourceManager.GetObject("bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655", resourceCulture);
@@ -96,6 +106,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         internal static System.Drawing.Bitmap depositphotos_222439992_stock_photo_cold_can_of_pepsi_drink {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_222439992-stock-photo-cold-can-of-pepsi-drink", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap internet_security_closed_pad_lock_260nw_515395867 {
+            get {
+                object obj = ResourceManager.GetObject("internet-security-closed-pad-lock-260nw-515395867", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

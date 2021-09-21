@@ -35,40 +35,45 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.txtcontra = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.usuario = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuario)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.MenuText;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(185, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 39);
+            this.label1.Size = new System.Drawing.Size(233, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIAR SESION ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.MenuText;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(71, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 40);
+            this.label2.Size = new System.Drawing.Size(102, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Usuario";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlText;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 19F);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(19, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 40);
+            this.label3.Size = new System.Drawing.Size(145, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             // 
@@ -97,7 +102,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtusuario.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtusuario.Location = new System.Drawing.Point(192, 97);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(215, 30);
+            this.txtusuario.Size = new System.Drawing.Size(215, 24);
             this.txtusuario.TabIndex = 8;
             // 
             // txtcontra
@@ -109,8 +114,17 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtcontra.Location = new System.Drawing.Point(192, 171);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
-            this.txtcontra.Size = new System.Drawing.Size(215, 30);
+            this.txtcontra.Size = new System.Drawing.Size(215, 24);
             this.txtcontra.TabIndex = 9;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.abstract_tech_background_vector;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(616, 288);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // usuario
             // 
@@ -124,7 +138,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             // login_trabajadores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(618, 289);
@@ -135,11 +149,13 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "login_trabajadores";
             this.Text = "login_empleados";
             this.Load += new System.EventHandler(this.login_trabajadores_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -155,5 +171,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.TextBox txtcontra;
         private System.Windows.Forms.PictureBox usuario;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -342,6 +342,8 @@
     <Content Include="Basededatos.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\abstract-tech-background-vector.jpg" />
+    <None Include="Resources\internet-security-closed-pad-lock-260nw-515395867.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -148,8 +148,14 @@
   <data name="pizza-e-vino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizza-e-vino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="internet-security-closed-pad-lock-260nw-515395867" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet-security-closed-pad-lock-260nw-515395867.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bebida-de-fanta-en-una-poder-aislada-en-el-fondo-blanco-64328655.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pizza-con-salami-655x368" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizza-con-salami-655x368.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +178,7 @@
   <data name="delete_96690" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_96690.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="abstract-tech-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-tech-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
