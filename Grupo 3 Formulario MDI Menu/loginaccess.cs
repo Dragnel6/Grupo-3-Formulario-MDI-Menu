@@ -37,7 +37,7 @@ namespace Grupo_3_Formulario_MDI_Menu
 
                 Formulario FrmPrincipal = new Formulario();
                 FrmPrincipal.Show();
-
+                this.Hide();
             }
             else
             {

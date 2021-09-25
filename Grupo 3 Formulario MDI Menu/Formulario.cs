@@ -135,13 +135,22 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         }
 
-        private void personalAToolStripMenuItem_Click(object sender, EventArgs e)
+        private void loginConSQLServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            login_trabajadores a = new login_trabajadores();
-            a.MdiParent = this;
-            a.Show();
+            login_trabajadores t = new login_trabajadores();
+            t.MdiParent = this;
+            t.Show();
+        }
+        private void accessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fusuario u = new fusuario();
+            u.Show();
         }
 
-        
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

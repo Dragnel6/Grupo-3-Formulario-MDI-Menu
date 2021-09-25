@@ -41,8 +41,13 @@ namespace Grupo_3_Formulario_MDI_Menu
                 {
                     conexion.Close();
                     Autorizado emple = new Autorizado();
+                    DialogResult us = MessageBox.Show("Bienvenido " + txtusuario.Text, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (us == DialogResult.OK)
+                    {
                     emple.Show();
                     this.Hide();
+                    }
+
                 }
 
             }
