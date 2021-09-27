@@ -29,6 +29,7 @@ namespace Grupo_3_Formulario_MDI_Menu
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Sesion = new System.Windows.Forms.Label();
             this.btActualizar = new System.Windows.Forms.Button();
             this.btGuardar = new System.Windows.Forms.Button();
@@ -41,11 +42,18 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btAnterior = new System.Windows.Forms.Button();
             this.btPrimero = new System.Windows.Forms.Button();
             this.lstnivel = new System.Windows.Forms.ComboBox();
+            this.tusuarioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.sistemaDataSet = new Grupo_3_Formulario_MDI_Menu.sistemaDataSet();
             this.Nel = new System.Windows.Forms.Label();
             this.Contra = new System.Windows.Forms.Label();
             this.User = new System.Windows.Forms.Label();
             this.txtclave = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
+            this.tusuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tusuarioTableAdapter = new Grupo_3_Formulario_MDI_Menu.sistemaDataSetTableAdapters.tusuarioTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistemaDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // Sesion
@@ -214,57 +222,82 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             // lstnivel
             // 
+            this.lstnivel.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tusuarioBindingSource1, "nivel", true));
+            this.lstnivel.Font = new System.Drawing.Font("Georgia", 13F);
             this.lstnivel.FormattingEnabled = true;
-            this.lstnivel.Location = new System.Drawing.Point(402, 189);
+            this.lstnivel.Location = new System.Drawing.Point(393, 188);
             this.lstnivel.Name = "lstnivel";
-            this.lstnivel.Size = new System.Drawing.Size(133, 24);
+            this.lstnivel.Size = new System.Drawing.Size(133, 35);
             this.lstnivel.TabIndex = 22;
+            // 
+            // tusuarioBindingSource1
+            // 
+            this.tusuarioBindingSource1.DataMember = "tusuario";
+            this.tusuarioBindingSource1.DataSource = this.sistemaDataSet;
+            // 
+            // sistemaDataSet
+            // 
+            this.sistemaDataSet.DataSetName = "sistemaDataSet";
+            this.sistemaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Nel
             // 
             this.Nel.AutoSize = true;
-            this.Nel.Font = new System.Drawing.Font("Georgia", 13F);
-            this.Nel.Location = new System.Drawing.Point(338, 188);
+            this.Nel.Font = new System.Drawing.Font("Georgia", 15F);
+            this.Nel.Location = new System.Drawing.Point(308, 188);
             this.Nel.Name = "Nel";
-            this.Nel.Size = new System.Drawing.Size(63, 27);
+            this.Nel.Size = new System.Drawing.Size(70, 30);
             this.Nel.TabIndex = 21;
             this.Nel.Text = "Nivel";
             // 
             // Contra
             // 
             this.Contra.AutoSize = true;
-            this.Contra.Font = new System.Drawing.Font("Georgia", 13F);
-            this.Contra.Location = new System.Drawing.Point(330, 150);
+            this.Contra.Font = new System.Drawing.Font("Georgia", 15F);
+            this.Contra.Location = new System.Drawing.Point(300, 150);
             this.Contra.Name = "Contra";
-            this.Contra.Size = new System.Drawing.Size(65, 27);
+            this.Contra.Size = new System.Drawing.Size(73, 30);
             this.Contra.TabIndex = 20;
             this.Contra.Text = "Clave";
             // 
             // User
             // 
             this.User.AutoSize = true;
-            this.User.Font = new System.Drawing.Font("Georgia", 13F);
-            this.User.Location = new System.Drawing.Point(317, 106);
+            this.User.Font = new System.Drawing.Font("Georgia", 15F);
+            this.User.Location = new System.Drawing.Point(281, 106);
             this.User.Name = "User";
-            this.User.Size = new System.Drawing.Size(90, 27);
+            this.User.Size = new System.Drawing.Size(100, 30);
             this.User.TabIndex = 19;
             this.User.Text = "Usuario";
             // 
             // txtclave
             // 
-            this.txtclave.Location = new System.Drawing.Point(402, 150);
+            this.txtclave.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sistemaDataSet, "tusuario.clave", true));
+            this.txtclave.Font = new System.Drawing.Font("Georgia", 13F);
+            this.txtclave.Location = new System.Drawing.Point(393, 149);
             this.txtclave.Multiline = true;
             this.txtclave.Name = "txtclave";
-            this.txtclave.Size = new System.Drawing.Size(133, 27);
+            this.txtclave.Size = new System.Drawing.Size(133, 33);
             this.txtclave.TabIndex = 18;
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(402, 106);
+            this.txtusuario.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tusuarioBindingSource, "nombre", true));
+            this.txtusuario.Font = new System.Drawing.Font("Georgia", 13F);
+            this.txtusuario.Location = new System.Drawing.Point(393, 105);
             this.txtusuario.Multiline = true;
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(133, 25);
+            this.txtusuario.Size = new System.Drawing.Size(133, 31);
             this.txtusuario.TabIndex = 17;
+            // 
+            // tusuarioBindingSource
+            // 
+            this.tusuarioBindingSource.DataMember = "tusuario";
+            this.tusuarioBindingSource.DataSource = this.sistemaDataSet;
+            // 
+            // tusuarioTableAdapter
+            // 
+            this.tusuarioTableAdapter.ClearBeforeFill = true;
             // 
             // fusuario
             // 
@@ -292,6 +325,9 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fusuario";
             this.Load += new System.EventHandler(this.fusuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistemaDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,5 +352,9 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.Label User;
         private System.Windows.Forms.TextBox txtclave;
         private System.Windows.Forms.TextBox txtusuario;
+        private sistemaDataSet sistemaDataSet;
+        private System.Windows.Forms.BindingSource tusuarioBindingSource;
+        private sistemaDataSetTableAdapters.tusuarioTableAdapter tusuarioTableAdapter;
+        private System.Windows.Forms.BindingSource tusuarioBindingSource1;
     }
 }

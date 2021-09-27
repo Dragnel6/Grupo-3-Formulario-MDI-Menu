@@ -44,9 +44,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label1.BackColor = System.Drawing.Color.PapayaWhip;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(76, 24);
+            this.label1.Location = new System.Drawing.Point(101, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 17);
+            this.label1.Size = new System.Drawing.Size(222, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Escriba su cuenta de usuario";
             // 
@@ -55,31 +56,35 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Honeydew;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(103, 83);
+            this.label2.Location = new System.Drawing.Point(137, 102);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 19);
+            this.label2.Size = new System.Drawing.Size(171, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Ecriba su Password";
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(90, 44);
+            this.txtUsuario.Location = new System.Drawing.Point(120, 54);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(149, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(197, 22);
             this.txtUsuario.TabIndex = 2;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(90, 105);
+            this.txtPassword.Location = new System.Drawing.Point(120, 129);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(149, 20);
+            this.txtPassword.Size = new System.Drawing.Size(197, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(90, 159);
+            this.btnIngresar.Location = new System.Drawing.Point(120, 196);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(132, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(176, 28);
             this.btnIngresar.TabIndex = 4;
             this.btnIngresar.Text = "Ingresar al sistema";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -89,26 +94,29 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.pictureBox1.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.internet_security_closed_pad_lock_260nw_515395867;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(317, 241);
+            this.pictureBox1.Size = new System.Drawing.Size(423, 297);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // loginaccess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(318, 241);
+            this.ClientSize = new System.Drawing.Size(424, 297);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "loginaccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "loginaccess";
+            this.Load += new System.EventHandler(this.loginaccess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

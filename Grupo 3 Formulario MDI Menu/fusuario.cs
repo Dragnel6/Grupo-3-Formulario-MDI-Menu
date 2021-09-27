@@ -7,15 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace Grupo_3_Formulario_MDI_Menu
 {
     public partial class fusuario : Form
     {
+       //Crear la variable.......para  la conexión
+        public OleDbConnection miconexion;
+        //Crear la variable.......para saber cuál actualizar
+        public string usuario_modificar;
+
+       // OleDbConnection conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=sistema.accdb");
+
         public fusuario()
         {
+            //Crear cadena de conexion a la base
+            miconexion  = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=sistema.accdb ");
             InitializeComponent();
         }
+
         private void fusuario_Load(object sender, EventArgs e)
         {
             //Desabilitar campos, se activan al crear nuevo registro
@@ -25,7 +36,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             lstnivel.Enabled = false;
             // TODO: esta linea de codigo carga datos en la tabla 'sistemaDataSet.tusuario'
             //puede moverla o quitarla segun sea necesario
-            this.tusuarioTableAdapter.Fill(this.tusuario);
+            this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
         }
         private void btPrimero_Click(object sender, EventArgs e)
         {

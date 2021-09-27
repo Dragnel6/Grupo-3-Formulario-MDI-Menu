@@ -48,5 +48,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             conexion.Close();
 
         }
+
+        private void loginaccess_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
