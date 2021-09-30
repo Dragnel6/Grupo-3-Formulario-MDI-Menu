@@ -367,6 +367,7 @@
     <Content Include="Basededatos.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Usuarios.png" />
     <Content Include="sistema.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

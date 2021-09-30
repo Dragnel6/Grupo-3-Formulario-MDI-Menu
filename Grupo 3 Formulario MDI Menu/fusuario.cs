@@ -59,6 +59,120 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.tusuarioBindingSource.MoveLast();
         }
 
+        private void btNuevo_Click(object sender, EventArgs e)
+        {
+            txtusuario.Enabled = true;
+            txtclave.Enabled = true;
+            lstnivel.Enabled = true;
+            txtusuario.Text = "";
+            lstnivel.Text = "Seleccione nivel";
+            txtusuario.Focus();
+            btNuevo.Visible = false;
+            btGuardar.Visible = true;
+        }
 
+        private void btGuardar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OleDbCommand Guardar = new OleDbCommand();
+                miconexion.Open();
+                Guardar.Connection = miconexion;
+                Guardar.CommandType = CommandType.Text;
+
+                Guardar.CommandText = "INSERT INTO Tusuario ([nombre], [clave], [nivel]) Values('" + txtusuario.Text.ToString() + "','" + txtclave.Text.ToString() + " ',' " + lstnivel.Text.ToString() + "')";
+
+                Guardar.ExecuteNonQuery();
+                miconexion.Close();
+
+                btNuevo.Visible = true;
+                btGuardar.Visible = false;
+
+                txtusuario.Enabled = false;
+                txtclave.Enabled = false;
+                lstnivel.Enabled = false;
+                btNuevo.Focus();
+
+                MessageBox.Show("Usuario agregado con exito", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
+                this.tusuarioBindingSource.MoveLast();
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message);  
+            }
+        }
+
+        private void btModificar_Click(object sender, EventArgs e)
+        {
+            txtusuario.Enabled = true;
+            txtclave.Enabled = true;
+            lstnivel.Enabled = true;
+            txtusuario.Focus();
+            btModificar.Visible = false;
+            btActualizar.Visible = true;
+
+            usuario_modificar = txtusuario.Text.ToString();   
+        }
+
+        private void btActualizar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OleDbCommand actualizar = new OleDbCommand();
+                miconexion.Open();
+                actualizar.Connection = miconexion;
+                actualizar.CommandType = CommandType.Text;
+
+                string nom = txtusuario.Text.ToString();
+                string cla = txtclave.Text.ToString();
+                string niv = lstnivel.Text;
+
+                actualizar.CommandText = "UPDATE Tusuario SET nombre = '" + nom + "',clave = '" + cla + "',nivel = '" + niv + "' WHERE nombre = '" + usuario_modificar + "'";
+
+                actualizar.ExecuteNonQuery();
+                miconexion.Close();
+
+                btModificar.Visible = true;
+                btActualizar.Visible = false;
+
+                txtusuario.Enabled = false;
+                txtclave.Enabled = false;
+                lstnivel.Enabled = false;
+
+                MessageBox.Show("Usuario actualizado con éxito", "Ok", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+              catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+        }
+
+        private void btEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OleDbCommand eliminar = new OleDbCommand();
+                miconexion.Open();
+                eliminar.Connection = miconexion;
+                eliminar.CommandType = CommandType.Text;
+
+                eliminar.CommandText = "DELETE FROM Tusuario WHERE nombre = '" + txtusuario.Text.ToString() + "'";
+
+                eliminar.ExecuteNonQuery();
+                this.tusuarioBindingSource.MoveNext();
+                miconexion.Close();
+
+                MessageBox.Show("Usuario eliminado con éxito", "Ok", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.tusuarioBindingSource.MovePrevious();
+
+            }
+              catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+        }
     }
 }

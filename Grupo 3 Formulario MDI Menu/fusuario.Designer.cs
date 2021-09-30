@@ -51,18 +51,21 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.tusuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tusuarioTableAdapter = new Grupo_3_Formulario_MDI_Menu.sistemaDataSetTableAdapters.tusuarioTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sistemaDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Sesion
             // 
             this.Sesion.AutoSize = true;
             this.Sesion.Font = new System.Drawing.Font("Georgia", 20F);
-            this.Sesion.Location = new System.Drawing.Point(143, 22);
+            this.Sesion.Location = new System.Drawing.Point(107, 18);
+            this.Sesion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Sesion.Name = "Sesion";
-            this.Sesion.Size = new System.Drawing.Size(218, 39);
+            this.Sesion.Size = new System.Drawing.Size(177, 31);
             this.Sesion.TabIndex = 33;
             this.Sesion.Text = "Iniciar sesion";
             // 
@@ -74,12 +77,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btActualizar.FlatAppearance.BorderSize = 3;
             this.btActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btActualizar.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btActualizar.Location = new System.Drawing.Point(283, 450);
+            this.btActualizar.Location = new System.Drawing.Point(212, 366);
+            this.btActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btActualizar.Name = "btActualizar";
-            this.btActualizar.Size = new System.Drawing.Size(127, 62);
+            this.btActualizar.Size = new System.Drawing.Size(106, 50);
             this.btActualizar.TabIndex = 32;
             this.btActualizar.Text = "Actualizar";
             this.btActualizar.UseVisualStyleBackColor = false;
+            this.btActualizar.Click += new System.EventHandler(this.btActualizar_Click);
             // 
             // btGuardar
             // 
@@ -89,12 +94,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btGuardar.FlatAppearance.BorderSize = 3;
             this.btGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btGuardar.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btGuardar.Location = new System.Drawing.Point(19, 450);
+            this.btGuardar.Location = new System.Drawing.Point(14, 366);
+            this.btGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btGuardar.Name = "btGuardar";
-            this.btGuardar.Size = new System.Drawing.Size(110, 62);
+            this.btGuardar.Size = new System.Drawing.Size(92, 50);
             this.btGuardar.TabIndex = 31;
             this.btGuardar.Text = "Guardar";
             this.btGuardar.UseVisualStyleBackColor = false;
+            this.btGuardar.Click += new System.EventHandler(this.btGuardar_Click);
             // 
             // btNuevo
             // 
@@ -104,12 +111,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btNuevo.FlatAppearance.BorderSize = 3;
             this.btNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btNuevo.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btNuevo.Location = new System.Drawing.Point(19, 382);
+            this.btNuevo.Location = new System.Drawing.Point(14, 310);
+            this.btNuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btNuevo.Name = "btNuevo";
-            this.btNuevo.Size = new System.Drawing.Size(110, 62);
+            this.btNuevo.Size = new System.Drawing.Size(82, 50);
             this.btNuevo.TabIndex = 30;
             this.btNuevo.Text = "Nuevo";
             this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
             // btEliminar
             // 
@@ -119,12 +128,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btEliminar.FlatAppearance.BorderSize = 3;
             this.btEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btEliminar.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btEliminar.Location = new System.Drawing.Point(150, 382);
+            this.btEliminar.Location = new System.Drawing.Point(112, 310);
+            this.btEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btEliminar.Name = "btEliminar";
-            this.btEliminar.Size = new System.Drawing.Size(112, 62);
+            this.btEliminar.Size = new System.Drawing.Size(96, 50);
             this.btEliminar.TabIndex = 29;
             this.btEliminar.Text = "Eliminar";
             this.btEliminar.UseVisualStyleBackColor = false;
+            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
             // 
             // btModificar
             // 
@@ -134,12 +145,14 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btModificar.FlatAppearance.BorderSize = 3;
             this.btModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btModificar.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btModificar.Location = new System.Drawing.Point(283, 382);
+            this.btModificar.Location = new System.Drawing.Point(212, 310);
+            this.btModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btModificar.Name = "btModificar";
-            this.btModificar.Size = new System.Drawing.Size(122, 62);
+            this.btModificar.Size = new System.Drawing.Size(103, 50);
             this.btModificar.TabIndex = 28;
             this.btModificar.Text = "Modificar";
             this.btModificar.UseVisualStyleBackColor = false;
+            this.btModificar.Click += new System.EventHandler(this.btModificar_Click);
             // 
             // btSalir
             // 
@@ -149,9 +162,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btSalir.FlatAppearance.BorderSize = 3;
             this.btSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSalir.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btSalir.Location = new System.Drawing.Point(425, 382);
+            this.btSalir.Location = new System.Drawing.Point(319, 310);
+            this.btSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(110, 62);
+            this.btSalir.Size = new System.Drawing.Size(82, 50);
             this.btSalir.TabIndex = 27;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = false;
@@ -164,9 +178,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btUltimo.FlatAppearance.BorderSize = 3;
             this.btUltimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btUltimo.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btUltimo.Location = new System.Drawing.Point(425, 314);
+            this.btUltimo.Location = new System.Drawing.Point(319, 255);
+            this.btUltimo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btUltimo.Name = "btUltimo";
-            this.btUltimo.Size = new System.Drawing.Size(110, 62);
+            this.btUltimo.Size = new System.Drawing.Size(82, 50);
             this.btUltimo.TabIndex = 26;
             this.btUltimo.Text = "Ultimo";
             this.btUltimo.UseVisualStyleBackColor = false;
@@ -180,9 +195,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btSiguiente.FlatAppearance.BorderSize = 3;
             this.btSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSiguiente.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btSiguiente.Location = new System.Drawing.Point(286, 314);
+            this.btSiguiente.Location = new System.Drawing.Point(214, 255);
+            this.btSiguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSiguiente.Name = "btSiguiente";
-            this.btSiguiente.Size = new System.Drawing.Size(119, 62);
+            this.btSiguiente.Size = new System.Drawing.Size(101, 50);
             this.btSiguiente.TabIndex = 25;
             this.btSiguiente.Text = "Siguiente";
             this.btSiguiente.UseVisualStyleBackColor = false;
@@ -196,9 +212,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btAnterior.FlatAppearance.BorderSize = 3;
             this.btAnterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAnterior.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btAnterior.Location = new System.Drawing.Point(150, 314);
+            this.btAnterior.Location = new System.Drawing.Point(112, 255);
+            this.btAnterior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btAnterior.Name = "btAnterior";
-            this.btAnterior.Size = new System.Drawing.Size(111, 62);
+            this.btAnterior.Size = new System.Drawing.Size(93, 50);
             this.btAnterior.TabIndex = 24;
             this.btAnterior.Text = "Anterior";
             this.btAnterior.UseVisualStyleBackColor = false;
@@ -212,9 +229,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.btPrimero.FlatAppearance.BorderSize = 3;
             this.btPrimero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btPrimero.Font = new System.Drawing.Font("Georgia", 13F);
-            this.btPrimero.Location = new System.Drawing.Point(19, 314);
+            this.btPrimero.Location = new System.Drawing.Point(14, 255);
+            this.btPrimero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btPrimero.Name = "btPrimero";
-            this.btPrimero.Size = new System.Drawing.Size(110, 62);
+            this.btPrimero.Size = new System.Drawing.Size(91, 50);
             this.btPrimero.TabIndex = 23;
             this.btPrimero.Text = "Primero";
             this.btPrimero.UseVisualStyleBackColor = false;
@@ -225,9 +243,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.lstnivel.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tusuarioBindingSource1, "nivel", true));
             this.lstnivel.Font = new System.Drawing.Font("Georgia", 13F);
             this.lstnivel.FormattingEnabled = true;
-            this.lstnivel.Location = new System.Drawing.Point(393, 188);
+            this.lstnivel.Location = new System.Drawing.Point(295, 153);
+            this.lstnivel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstnivel.Name = "lstnivel";
-            this.lstnivel.Size = new System.Drawing.Size(133, 35);
+            this.lstnivel.Size = new System.Drawing.Size(101, 28);
             this.lstnivel.TabIndex = 22;
             // 
             // tusuarioBindingSource1
@@ -244,9 +263,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.Nel.AutoSize = true;
             this.Nel.Font = new System.Drawing.Font("Georgia", 15F);
-            this.Nel.Location = new System.Drawing.Point(308, 188);
+            this.Nel.Location = new System.Drawing.Point(231, 153);
+            this.Nel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Nel.Name = "Nel";
-            this.Nel.Size = new System.Drawing.Size(70, 30);
+            this.Nel.Size = new System.Drawing.Size(57, 24);
             this.Nel.TabIndex = 21;
             this.Nel.Text = "Nivel";
             // 
@@ -254,9 +274,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.Contra.AutoSize = true;
             this.Contra.Font = new System.Drawing.Font("Georgia", 15F);
-            this.Contra.Location = new System.Drawing.Point(300, 150);
+            this.Contra.Location = new System.Drawing.Point(225, 122);
+            this.Contra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Contra.Name = "Contra";
-            this.Contra.Size = new System.Drawing.Size(73, 30);
+            this.Contra.Size = new System.Drawing.Size(59, 24);
             this.Contra.TabIndex = 20;
             this.Contra.Text = "Clave";
             // 
@@ -264,9 +285,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.User.AutoSize = true;
             this.User.Font = new System.Drawing.Font("Georgia", 15F);
-            this.User.Location = new System.Drawing.Point(281, 106);
+            this.User.Location = new System.Drawing.Point(211, 86);
+            this.User.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.User.Name = "User";
-            this.User.Size = new System.Drawing.Size(100, 30);
+            this.User.Size = new System.Drawing.Size(81, 24);
             this.User.TabIndex = 19;
             this.User.Text = "Usuario";
             // 
@@ -274,20 +296,22 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.txtclave.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sistemaDataSet, "tusuario.clave", true));
             this.txtclave.Font = new System.Drawing.Font("Georgia", 13F);
-            this.txtclave.Location = new System.Drawing.Point(393, 149);
+            this.txtclave.Location = new System.Drawing.Point(295, 121);
+            this.txtclave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtclave.Multiline = true;
             this.txtclave.Name = "txtclave";
-            this.txtclave.Size = new System.Drawing.Size(133, 33);
+            this.txtclave.Size = new System.Drawing.Size(101, 28);
             this.txtclave.TabIndex = 18;
             // 
             // txtusuario
             // 
             this.txtusuario.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tusuarioBindingSource, "nombre", true));
             this.txtusuario.Font = new System.Drawing.Font("Georgia", 13F);
-            this.txtusuario.Location = new System.Drawing.Point(393, 105);
+            this.txtusuario.Location = new System.Drawing.Point(295, 85);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtusuario.Multiline = true;
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(133, 31);
+            this.txtusuario.Size = new System.Drawing.Size(101, 26);
             this.txtusuario.TabIndex = 17;
             // 
             // tusuarioBindingSource
@@ -299,11 +323,23 @@ namespace Grupo_3_Formulario_MDI_Menu
             // 
             this.tusuarioTableAdapter.ClearBeforeFill = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Grupo_3_Formulario_MDI_Menu.Properties.Resources.Usuarios;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(179, 170);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 34;
+            this.pictureBox1.TabStop = false;
+            // 
             // fusuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 535);
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.ClientSize = new System.Drawing.Size(416, 435);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Sesion);
             this.Controls.Add(this.btActualizar);
             this.Controls.Add(this.btGuardar);
@@ -321,6 +357,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Controls.Add(this.User);
             this.Controls.Add(this.txtclave);
             this.Controls.Add(this.txtusuario);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "fusuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fusuario";
@@ -328,6 +365,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sistemaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tusuarioBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -356,5 +394,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.BindingSource tusuarioBindingSource;
         private sistemaDataSetTableAdapters.tusuarioTableAdapter tusuarioTableAdapter;
         private System.Windows.Forms.BindingSource tusuarioBindingSource1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
