@@ -174,5 +174,10 @@ namespace Grupo_3_Formulario_MDI_Menu
                 MessageBox.Show(err.Message);
             }
         }
+
+        private void btSalir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
