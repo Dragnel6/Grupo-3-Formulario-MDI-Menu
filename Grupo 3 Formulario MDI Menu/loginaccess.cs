@@ -33,7 +33,7 @@ namespace Grupo_3_Formulario_MDI_Menu
 
 
             if (ExistenciaRegistros)
-            { MessageBox.Show(" Bienvenido al sistema"+ txtUsuario.Text, "Usuario autorizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            { MessageBox.Show(" Bienvenido al sistema "+ txtUsuario.Text, "Usuario autorizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 Formulario FrmPrincipal = new Formulario();
                 FrmPrincipal.Show();

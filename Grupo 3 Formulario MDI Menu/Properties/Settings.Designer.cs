@@ -52,5 +52,15 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
                 return ((string)(this["sistemaConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Sistema\\sistema.accdb")]
+        public string sistemaConnectionString1 {
+            get {
+                return ((string)(this["sistemaConnectionString1"]));
+            }
+        }
     }
 }

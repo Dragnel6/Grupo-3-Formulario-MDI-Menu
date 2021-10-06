@@ -23,16 +23,19 @@ namespace Grupo_3_Formulario_MDI_Menu
         public fusuario()
         {
             //Crear cadena de conexion a la base
-            miconexion  = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=sistema.accdb ");
+            miconexion = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Sistema\sistema.accdb");
             InitializeComponent();
         }
 
         private void fusuario_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'sistemaDataSet.tusuario' Puede moverla o quitarla según sea necesario.
+            this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
+            // TODO: esta línea de código carga datos en la tabla 'sistemaDataSet.tusuario' Puede moverla o quitarla según sea necesario.
+            this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
             //Desabilitar campos, se activan al crear nuevo registro
             txtusuario.Enabled = false;
             txtclave.Enabled = false;
-            txtusuario.Enabled = false;
             lstnivel.Enabled = false;
             // TODO: esta linea de codigo carga datos en la tabla 'sistemaDataSet.tusuario'
             //puede moverla o quitarla segun sea necesario
@@ -61,10 +64,13 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void btNuevo_Click(object sender, EventArgs e)
         {
+            //El boton nuevo realmente solo habilita el formulario
+            //para agregar un nuevo registro
             txtusuario.Enabled = true;
             txtclave.Enabled = true;
             lstnivel.Enabled = true;
             txtusuario.Text = "";
+            txtclave.Text  = "";
             lstnivel.Text = "Seleccione nivel";
             txtusuario.Focus();
             btNuevo.Visible = false;
@@ -80,7 +86,7 @@ namespace Grupo_3_Formulario_MDI_Menu
                 Guardar.Connection = miconexion;
                 Guardar.CommandType = CommandType.Text;
 
-                Guardar.CommandText = "INSERT INTO Tusuario ([nombre], [clave], [nivel]) Values('" + txtusuario.Text.ToString() + "','" + txtclave.Text.ToString() + " ',' " + lstnivel.Text.ToString() + "')";
+                Guardar.CommandText = "INSERT INTO tusuario ([nombre], [clave], [nivel]) Values('" + txtusuario.Text.ToString() + "','" + txtclave.Text.ToString() + " ',' " + lstnivel.Text.ToString() + "')";
 
                 Guardar.ExecuteNonQuery();
                 miconexion.Close();
@@ -88,11 +94,13 @@ namespace Grupo_3_Formulario_MDI_Menu
                 btNuevo.Visible = true;
                 btGuardar.Visible = false;
 
+                //Desabilitar campos, se activan al crear nuevo registro
                 txtusuario.Enabled = false;
                 txtclave.Enabled = false;
                 lstnivel.Enabled = false;
                 btNuevo.Focus();
 
+                //Mensaje que se guardo correctamente
                 MessageBox.Show("Usuario agregado con exito", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
                 this.tusuarioBindingSource.MoveLast();
@@ -105,6 +113,8 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void btModificar_Click(object sender, EventArgs e)
         {
+            //El boton nuevo solo habilita el formulario
+            //para actualizar el registro actual
             txtusuario.Enabled = true;
             txtclave.Enabled = true;
             lstnivel.Enabled = true;
@@ -117,6 +127,7 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void btActualizar_Click(object sender, EventArgs e)
         {
+            //Aplica los cambios realizados al registro actual
             try
             {
                 OleDbCommand actualizar = new OleDbCommand();
@@ -128,7 +139,8 @@ namespace Grupo_3_Formulario_MDI_Menu
                 string cla = txtclave.Text.ToString();
                 string niv = lstnivel.Text;
 
-                actualizar.CommandText = "UPDATE Tusuario SET nombre = '" + nom + "',clave = '" + cla + "',nivel = '" + niv + "' WHERE nombre = '" + usuario_modificar + "'";
+                //Podemos actualizar todos los campos de una vez
+                actualizar.CommandText = "UPDATE tusuario SET nombre = '" + nom + "',clave = '" + cla + "',nivel = '" + niv + "' WHERE nombre = '" + usuario_modificar + "'";
 
                 actualizar.ExecuteNonQuery();
                 miconexion.Close();
@@ -140,6 +152,7 @@ namespace Grupo_3_Formulario_MDI_Menu
                 txtclave.Enabled = false;
                 lstnivel.Enabled = false;
 
+                //Mensaje que se guardo correctamente
                 MessageBox.Show("Usuario actualizado con éxito", "Ok", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
@@ -158,12 +171,13 @@ namespace Grupo_3_Formulario_MDI_Menu
                 eliminar.Connection = miconexion;
                 eliminar.CommandType = CommandType.Text;
 
-                eliminar.CommandText = "DELETE FROM Tusuario WHERE nombre = '" + txtusuario.Text.ToString() + "'";
+                eliminar.CommandText = "DELETE FROM tusuario WHERE nombre = '" + txtusuario.Text.ToString() + "'";
 
                 eliminar.ExecuteNonQuery();
                 this.tusuarioBindingSource.MoveNext();
                 miconexion.Close();
 
+                //Mensaje que se guardo correctamente
                 MessageBox.Show("Usuario eliminado con éxito", "Ok", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.tusuarioBindingSource.MovePrevious();
@@ -179,5 +193,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         {
             this.Hide();
         }
+
     }
 }

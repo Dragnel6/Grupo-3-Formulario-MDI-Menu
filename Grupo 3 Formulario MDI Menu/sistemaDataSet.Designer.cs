@@ -893,7 +893,7 @@ namespace Grupo_3_Formulario_MDI_Menu.sistemaDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Grupo_3_Formulario_MDI_Menu.Properties.Settings.Default.sistemaConnectionString;
+            this._connection.ConnectionString = global::Grupo_3_Formulario_MDI_Menu.Properties.Settings.Default.sistemaConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

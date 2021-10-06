@@ -173,8 +173,8 @@ namespace Grupo_3_Formulario_MDI_Menu
             // loginconSQLServerToolStripMenuItem
             // 
             this.loginconSQLServerToolStripMenuItem.Name = "loginconSQLServerToolStripMenuItem";
-            this.loginconSQLServerToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
-            this.loginconSQLServerToolStripMenuItem.Text = "Login SQL server";
+            this.loginconSQLServerToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.loginconSQLServerToolStripMenuItem.Text = "SQL server";
             this.loginconSQLServerToolStripMenuItem.Click += new System.EventHandler(this.loginConSQLServerToolStripMenuItem_Click);
             // 
             // accessToolStripMenuItem
