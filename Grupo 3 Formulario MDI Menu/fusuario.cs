@@ -29,10 +29,6 @@ namespace Grupo_3_Formulario_MDI_Menu
 
         private void fusuario_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'sistemaDataSet.tusuario' Puede moverla o quitarla según sea necesario.
-            this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
-            // TODO: esta línea de código carga datos en la tabla 'sistemaDataSet.tusuario' Puede moverla o quitarla según sea necesario.
-            this.tusuarioTableAdapter.Fill(this.sistemaDataSet.tusuario);
             //Desabilitar campos, se activan al crear nuevo registro
             txtusuario.Enabled = false;
             txtclave.Enabled = false;
