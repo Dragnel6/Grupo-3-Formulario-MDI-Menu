@@ -223,6 +223,16 @@ namespace Grupo_3_Formulario_MDI_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngegg {
+            get {
+                object obj = ResourceManager.GetObject("pngegg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap security_protection_protect_key_password_login_108554 {
             get {
                 object obj = ResourceManager.GetObject("security-protection-protect-key-password-login_108554", resourceCulture);
