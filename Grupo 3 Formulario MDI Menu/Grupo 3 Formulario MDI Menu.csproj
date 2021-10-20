@@ -99,6 +99,12 @@
     <Compile Include="Compras.Designer.cs">
       <DependentUpon>Compras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario Par.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario Par.Designer.cs">
+      <DependentUpon>Formulario Par.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario Par.resx">
+      <DependentUpon>Formulario Par.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
@@ -377,6 +386,7 @@
     <Content Include="Basededatos.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\pngegg.png" />
     <None Include="Resources\Usuarios.png" />
     <None Include="Resources\abstract-tech-background-vector.jpg" />
     <None Include="Resources\internet-security-closed-pad-lock-260nw-515395867.jpg" />
