@@ -37,6 +37,7 @@
       <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
@@ -189,6 +190,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>sistemaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="usMysql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usMysql.Designer.cs">
+      <DependentUpon>usMysql.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +274,9 @@
     </Compile>
     <EmbeddedResource Include="Proveedores.resx">
       <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usMysql.resx">
+      <DependentUpon>usMysql.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
@@ -370,6 +380,9 @@
     <None Include="Resources\Usuarios.png" />
     <None Include="Resources\abstract-tech-background-vector.jpg" />
     <None Include="Resources\internet-security-closed-pad-lock-260nw-515395867.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

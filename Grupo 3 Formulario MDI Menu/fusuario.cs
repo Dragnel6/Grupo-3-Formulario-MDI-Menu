@@ -49,7 +49,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private void btAnterior_Click(object sender, EventArgs e)
         {
             this.tusuarioBindingSource.MovePrevious();
-
         }
 
         private void btSiguiente_Click(object sender, EventArgs e)

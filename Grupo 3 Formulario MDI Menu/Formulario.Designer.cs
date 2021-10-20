@@ -39,14 +39,13 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.pizzaConVerdurasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inventariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregregarOrdenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loginconSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.mYSQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,11 +56,11 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.formulariosToolStripMenuItem,
             this.proveedoresToolStripMenuItem,
             this.comprasToolStripMenuItem,
-            this.inventariosToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.acercaDeToolStripMenuItem,
             this.loginconSQLServerToolStripMenuItem,
             this.accessToolStripMenuItem,
+            this.mYSQLToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -141,21 +140,6 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.comprasToolStripMenuItem.Text = "Complementos";
             this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
             // 
-            // inventariosToolStripMenuItem
-            // 
-            this.inventariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agregregarOrdenToolStripMenuItem});
-            this.inventariosToolStripMenuItem.Name = "inventariosToolStripMenuItem";
-            this.inventariosToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
-            this.inventariosToolStripMenuItem.Text = "Servicio a domicilio";
-            this.inventariosToolStripMenuItem.Click += new System.EventHandler(this.inventariosToolStripMenuItem_Click);
-            // 
-            // agregregarOrdenToolStripMenuItem
-            // 
-            this.agregregarOrdenToolStripMenuItem.Name = "agregregarOrdenToolStripMenuItem";
-            this.agregregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
-            this.agregregarOrdenToolStripMenuItem.Text = "Agregregar orden ";
-            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
@@ -191,6 +175,13 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // mYSQLToolStripMenuItem
+            // 
+            this.mYSQLToolStripMenuItem.Name = "mYSQLToolStripMenuItem";
+            this.mYSQLToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.mYSQLToolStripMenuItem.Text = "MYSQL";
+            this.mYSQLToolStripMenuItem.Click += new System.EventHandler(this.mYSQLToolStripMenuItem_Click);
+            // 
             // Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -217,7 +208,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.ToolStripMenuItem formulariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem inventariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pizzaConOrillaDeQuesoToolStripMenuItem;
@@ -226,10 +216,10 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.ToolStripMenuItem pizzaDeSalamiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pizzaDeJamonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pizzaConVerdurasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregregarOrdenToolStripMenuItem;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ToolStripMenuItem loginconSQLServerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accessToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mYSQLToolStripMenuItem;
     }
 }

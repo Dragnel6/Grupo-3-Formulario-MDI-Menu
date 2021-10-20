@@ -152,5 +152,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Close();
         }
 
+        private void mYSQLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            usMysql s = new usMysql();
+            s.Show();
+        }
     }
 }
