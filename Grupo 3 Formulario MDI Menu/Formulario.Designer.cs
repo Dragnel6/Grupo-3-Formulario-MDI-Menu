@@ -43,9 +43,10 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loginconSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mYSQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.mYSQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.loginconSQLServerToolStripMenuItem,
             this.accessToolStripMenuItem,
             this.mYSQLToolStripMenuItem,
+            this.productosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -168,13 +170,6 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.accessToolStripMenuItem.Text = "Access";
             this.accessToolStripMenuItem.Click += new System.EventHandler(this.accessToolStripMenuItem_Click);
             // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
             // mYSQLToolStripMenuItem
             // 
             this.mYSQLToolStripMenuItem.Name = "mYSQLToolStripMenuItem";
@@ -182,11 +177,25 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.mYSQLToolStripMenuItem.Text = "MYSQL";
             this.mYSQLToolStripMenuItem.Click += new System.EventHandler(this.mYSQLToolStripMenuItem_Click);
             // 
+            // productosToolStripMenuItem
+            // 
+            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.productosToolStripMenuItem.Text = "productos";
+            this.productosToolStripMenuItem.Click += new System.EventHandler(this.productosToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkRed;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1025, 554);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -194,7 +203,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Formulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pizzeria";
+            this.Text = "Restaurante";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -221,5 +230,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accessToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mYSQLToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
     }
 }

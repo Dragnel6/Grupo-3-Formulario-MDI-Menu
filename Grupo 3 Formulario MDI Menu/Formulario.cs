@@ -138,7 +138,6 @@ namespace Grupo_3_Formulario_MDI_Menu
         private void loginConSQLServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             login_trabajadores t = new login_trabajadores();
-            t.MdiParent = this;
             t.Show();
         }
         private void accessToolStripMenuItem_Click(object sender, EventArgs e)
@@ -147,15 +146,23 @@ namespace Grupo_3_Formulario_MDI_Menu
             u.Show();
         }
 
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void mYSQLToolStripMenuItem_Click(object sender, EventArgs e)
         {
             usMysql s = new usMysql();
             s.Show();
         }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            productos m = new productos();
+            m.Show();
+        } 
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
